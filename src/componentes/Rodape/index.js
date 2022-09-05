@@ -1,7 +1,9 @@
+import './style.css';
+
 export default function Rodape() {
     return (
         <footer>
-            <div>
+            <div className="limitar-secao container-logo-infos">
                 <img src="assets/logo.png"/>
 
                 <div>
@@ -23,7 +25,7 @@ export default function Rodape() {
                 </div>
             </div>
 
-            <div>
+            <div className="limitar-secao direito-autoral">
                 <p>Gelateria. Orgulhosamente desenvolvido por Anne Estevam</p>
             </div>
         </footer>
