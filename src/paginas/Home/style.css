@@ -65,4 +65,10 @@
     line-height: 26px;
     margin: 40px 0;
   }
+
+  @media screen and (max-width: 425px) {
+    .texto-banner h1 {
+      font-size: 40px;
+    }
+  }
   
