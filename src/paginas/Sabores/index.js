@@ -21,7 +21,7 @@ export default function Sabores() {
                     <div className="container-sorvetes">
                         <div className="box-sorvete">
                             <img src="assets/sabor-oreo.png" alt="sorvete oreo"/>
-                            <h3>Sorvrte de Oreo</h3>
+                            <h3>Sorvete de Oreo</h3>
                             <p>Delicioso sorvete sabor Oreo. Uma explosão de sabor.</p>
                         </div>
 
@@ -49,7 +49,7 @@ export default function Sabores() {
                             <p>Sorvete de morango gourmet. Tradicional e saboroso.</p>
                         </div>
 
-                        <div>
+                        <div className="box-sorvete">
                             <img src="assets/sorbet-limao.png" alt="sorvete limão"/>
                             <h3>Sorvete de Limão Siciliano</h3>
                             <p>O incrível sorvete gourmet de limão siciliano vai te encantar.</p>
